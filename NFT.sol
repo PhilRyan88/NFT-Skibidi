@@ -16,6 +16,6 @@ contract GameZ is ERC721URIStorage {
         _mint(fan, newItemId);
         _setTokenURI(newItemId, tokenURI);
 
-        
+        _tokenIds.increment();
     }
 }
